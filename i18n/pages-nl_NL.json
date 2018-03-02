@@ -1,0 +1,69 @@
+{        
+    // STANDARD ERROR CODES
+    // =======================================================
+
+    "400": {
+        "title": "Ongeldige aanvraag",
+        "message": "De server kan de aanvraag niet verwerken, door wat lijkt op een gebruikersfout" 
+    },
+    "401": {
+        "title": "Niet geauthoriseerd",
+        "message": "Het aangevraagde document vereist authorisatie."
+    },
+
+    "403": {
+        "title": "Niet gemachtigd",
+        "message": "Het aangevraagde document vereist authenticatie." 
+    },
+    
+    // http 404 not found
+    "404": {
+        "title": "Document niet gevonden",
+        "message": "Het aangevraagde document kan (tijdelijk) niet gevonden worden." 
+    },
+    
+    // internal server error
+    "500": {
+        "title": "Webservice currently unavailable",
+        "message": "An unexpected condition was encountered.\nOur service team has been dispatched to bring it back online." 
+    },
+    
+    // unknown http method
+    "501": {
+        "title": "Not Implemented",
+        "message": "The Webserver cannot recognize the request method."
+    },
+    
+    // http proxy forward error
+    "502": {
+        "title": "Webservice currently unavailable",
+        "message": "We've got some trouble with our backend upstream cluster.\nOur service team has been dispatched to bring it back online."
+    },
+    
+    // webserver service error
+    "503": {
+        "title": "Webservice currently unavailable",
+        "message": "We've got some trouble with our backend upstream cluster.\nOur service team has been dispatched to bring it back online."
+    },
+    
+    // CUSTOM ERROR CODES
+    // =======================================================
+
+    // webserver origin error
+    "520": {
+        "title": "Onbekend domeinnaam",
+        "message": "De aangevraagde domeinnaam is niet bekend. Gebruik alleen bekende domeinnamen voor deze dienst."
+    },
+    
+    // webserver down error
+    "521": {
+        "title": "Webservice niet beschikbaar",
+        "message": "Onze dienstverlening is tijdelijk niet beschikbaar.\nOns technische team is er mee bezig om het weer beschikbaar te krijgen."
+    },
+    
+    // maintenance
+    "533": {
+        "title": "Gepland onderhoud",
+        "message": "Deze site is momenteel niet bereikbaar door onderhoud.\nOns technische team doet zijn best om de service zo snel mogelijk weer online te krijgen."
+    }
+}
